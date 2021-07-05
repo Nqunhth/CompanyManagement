@@ -20,7 +20,7 @@ import com.example.companymanagement.viewcontroller.fragment.signleave.employeLe
 class DialogLeave(var leaveInfo: LeaveInfoModel, val buttonvisible: Boolean = false) :
     DialogFragment() {
 
-     var viewmodel = ManagerLeaveViewModel()
+    var viewmodel = ManagerLeaveViewModel()
 
     override fun onCreateDialog(savedInstanceState: Bundle?): Dialog {
 
